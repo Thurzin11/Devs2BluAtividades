@@ -13,15 +13,15 @@ public class QuestaoDoisMatrizes {
         //percorrera a matriz de acordo com a quantidade de entrevistados e de acordo com a quantidade de filhos deles
         for (int i = 0; i < quantidadeEntrevistados; i++) {
             int quantidadeFilhos = Integer.parseInt(JOptionPane.showInputDialog("Informe a quantidade de filhos "));
-            //é criado um array de string dentro da coluna da matriz de acordo com a quantidade de filhos do entrevistado
+            //é criado um matriz de string dentro da coluna da matriz de acordo com a quantidade de filhos do entrevistado
             filhos[i] = new String[quantidadeFilhos][2];
             for (int j = 0; j < quantidadeFilhos; j++) {
-                //popula com os nomes
+                //popula com os nomes e idades
                 filhos[i][j][0] = JOptionPane.showInputDialog("Informe o nome do seu " + (j + 1) + " filho");
                 filhos[i][j][1] = JOptionPane.showInputDialog("Informe a idade do seu " + (j + 1) + " filho");
             }
         }
-        //percorre a matriz e o array dentro da matriz para mostrar os nomes dos filhos
+        //percorre a matriz e o array dentro da matriz para mostrar os nomes dos filhos e as idades
         for (int i = 0; i < filhos.length; i++) {
             System.out.println("Entrevistado " + (i + 1) + " tem " + filhos[i].length + " filhos: ");
             for (int j = 0; j < filhos[i].length; j++) {
