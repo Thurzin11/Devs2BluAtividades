@@ -29,6 +29,5 @@ public class QuestaoDoisMatrizes {
             }
             System.out.println();
         }
-
     }
 }
