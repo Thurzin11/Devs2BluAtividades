@@ -1,4 +1,4 @@
-package semana4.QuestaoUm;
+package semanaQuatro.QuestaoUm;
 
 import java.time.LocalTime;
 import java.util.Date;

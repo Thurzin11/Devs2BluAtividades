@@ -1,4 +1,4 @@
-package semana4.QuestaDois;
+package semanaQuatro.QuestaDois;
 public class MainQuestaoDois {
     public static void main(String[] args) {
         Teste teste = new Teste();

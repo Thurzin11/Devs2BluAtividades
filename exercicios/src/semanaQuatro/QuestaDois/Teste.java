@@ -1,4 +1,4 @@
-package semana4.QuestaDois;
+package semanaQuatro.QuestaDois;
 import javax.swing.*;
 import java.time.LocalTime;
 

@@ -1,4 +1,4 @@
-package semana4.QuestaoUm;
+package semanaQuatro.QuestaoUm;
 
 public class Item {
     String nome;

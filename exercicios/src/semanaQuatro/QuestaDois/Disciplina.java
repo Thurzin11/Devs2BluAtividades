@@ -1,7 +1,6 @@
-package semana4.QuestaDois;
+package semanaQuatro.QuestaDois;
 
 import javax.swing.*;
-import java.util.Arrays;
 
 public class Disciplina {
     String nome;
