@@ -21,8 +21,10 @@ public class Funcionario {
     }
 
     public void exibeDados(){
+        System.out.println("Esse é um funcionario");
         System.out.println("Nome: " + this.nome);
         System.out.println("Salario: " + this.salario);
+        System.out.println("Ganho anual é de: " + this.ganhoAnual());
     }
 
     public String getNome() {
@@ -40,4 +42,5 @@ public class Funcionario {
     public void setSalario(Double salario) {
         this.salario = salario;
     }
+
 }
