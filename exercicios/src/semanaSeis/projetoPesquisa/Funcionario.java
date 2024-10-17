@@ -1,14 +1,19 @@
 package semanaSeis.projetoPesquisa;
 
 public class Funcionario {
+//atributos
     private Double salario;
 
+
+//    contrutores
     public Funcionario(Double salario) {
         this.salario = salario;
     }
 
     public Funcionario() {}
 
+
+//    getters e setters
     public Double getSalario() {
         return salario;
     }
