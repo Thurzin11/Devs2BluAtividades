@@ -55,11 +55,9 @@ public class Ingresso extends TipoIngresso {
     public double valorTotal() {
         return valor + valorAdicional;
     }
-
 //     override do metodo abstrato
     @Override
     public String imprimeTipo() {
         return "Tipo: " + this.getTipoIngresso();
     }
-
 }
