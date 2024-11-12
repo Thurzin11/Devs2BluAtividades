@@ -3,10 +3,6 @@ package semanaDez.questaoQuatro;
 import semanaDez.questaoQuatro.factory.GUIFactory;
 import semanaDez.questaoQuatro.factory.HTMLGUIFactory;
 import semanaDez.questaoQuatro.factory.PDFGUIFactory;
-import semanaDez.questaoTres.ThemeApplication;
-import semanaDez.questaoTres.factorys.DarkFactory;
-import semanaDez.questaoTres.factorys.LightFactory;
-
 public class Main {
     public static void main(String[] args) {
         GUIFactory factory;
